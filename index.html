@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Đức's Site</title>
+  <meta name="title" content="Đức's Site">
+  <meta name="description" content="Hi, my name is Ngô Tấn Đức. I'm the Web Developer.">
+  <meta name="keywords" content="web, fullstack developer, portfolio">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="Vietnamese">
+  <meta name="author" content="Ngô Tấn Đức">
+
+  <meta property="og:title" content="Đức's Site" />
+  <meta property="og:description" content="Hi, my name is Ngô Tấn Đức. I'm the Web Developer." />
+  <meta property="og:url" content="/" />
+  <meta property="og:image" content="/banner.jpg" />
+  <meta property="og:type" content="website" />
+
+  <meta name="twitter:title" content="Đức's Site">
+  <meta name="twitter:description" content="Hi, my name is Ngô Tấn Đức. I'm the Web Developer.">
+  <meta name="twitter:image" content="/banner.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+  <section class="min-h-screen w-full flex flex-col justify-center items-center bg-[url('/banner.jpg')] bg-cover bg-center">
+    <div class="w-full lg:w-[80%] p-8 lg:p-12 text-gray-800">
+      <h1 class="text-4xl lg:text-6xl font-bold mb-10 grid grid-col-1 gap-2 lg:gap-5">
+        <span class="banner-text">Hi, my name is</span>
+        <span class="banner-text text-teal-400">Ngô Tấn Đức</span>
+        <span class="text-gray-800 banner-text">I'm the Web Developer.</span>
+      </h1>
+
+      <a href="#about-me" class="banner-cta inline-block uppercase border-2 border-teal-400 p-3 hover:bg-teal-400 hover:text-white transition-colors cursor-pointer">
+        <span class="text-lg lg:text-xl px-6 lg:px-8 py-2 lg:py-3 font-light focus:outline-none focus:ring focus:ring-teal-300">Know more</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="about-me" class="bg-teal-400 min-h-screen w-full flex flex-col justify-center items-center p-4 lg:p-12 text-white">
+    <div class="w-full lg:w-[60%] mb-5">
+      <h2 class="section-title uppercase text-2xl lg:text-5xl text-center font-bold text-white mb-12">About Me</h2>
+      <div class="section-content grid grid-cols-1 gap-6 lg:grid-cols-3 lg:gap-8">
+        <div class="flex justify-center items-center text-center col-span-1">
+          <div class="w-48 h-64 lg:w-64 lg:h-80 rounded-2xl bg-white/20 flex items-center justify-center overflow-hidden shadow-2xl ring-4 ring-white/30">
+            <img src="/imgs/avatar.jpg" alt="Ngô Tấn Đức" class="w-full h-full object-cover object-top" />
+          </div>
+        </div>
+        <div class="col-span-1 lg:col-span-2 flex justify-center items-center">
+          <div class="p-4 text-center lg:p-8 lg:text-start">
+            <p class="pb-3 text-base lg:text-lg font-light mb-5 leading-relaxed">
+              Xin chào! Tôi là <strong>Ngô Tấn Đức</strong>. Tôi yêu thích lập trình, phát triển ứng dụng và nghiên cứu kiến trúc phần mềm. 
+              Mục tiêu nghề nghiệp của tôi là trở thành một Kỹ sư phần mềm cao cấp, 
+              người nắm vững kiến trúc phần mềm, nguyên tắc thiết kế và công nghệ phát triển hiện đại.
+            </p>
+            <a href="#" target="_blank" class="inline-block uppercase border-2 border-white p-3 text-white hover:bg-white hover:text-teal-400 transition-colors cursor-pointer">
+              <span class="text-lg lg:text-xl px-6 lg:px-8 py-2 lg:py-3 font-normal focus:outline-none focus:ring focus:ring-teal-300">View My CV</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="bg-gray-100 min-h-[500px] w-full flex flex-col justify-center items-center p-6 lg:p-12 text-gray-800">
+    <div class="w-full lg:w-[60%] mb-5">
+      <h2 class="section-title uppercase text-2xl lg:text-5xl text-center font-bold mb-12">Skills</h2>
+      <div class="section-content grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 lg:gap-6">
+        <div class="bg-white p-4 lg:p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow text-center">
+          <div class="text-4xl lg:text-5xl mb-3">🌐</div>
+          <h3 class="font-semibold text-gray-800">HTML5</h3>
+        </div>
+        <div class="bg-white p-4 lg:p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow text-center">
+          <div class="text-4xl lg:text-5xl mb-3">🎨</div>
+          <h3 class="font-semibold text-gray-800">CSS3</h3>
+        </div>
+        <div class="bg-white p-4 lg:p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow text-center">
+          <div class="text-4xl lg:text-5xl mb-3">⚡</div>
+          <h3 class="font-semibold text-gray-800">JavaScript</h3>
+        </div>
+        <div class="bg-white p-4 lg:p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow text-center">
+          <div class="text-4xl lg:text-5xl mb-3">💨</div>
+          <h3 class="font-semibold text-gray-800">Tailwind CSS</h3>
+        </div>
+        <div class="bg-white p-4 lg:p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow text-center">
+          <div class="text-4xl lg:text-5xl mb-3">⚛️</div>
+          <h3 class="font-semibold text-gray-800">React</h3>
+        </div>
+        <div class="bg-white p-4 lg:p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow text-center">
+          <div class="text-4xl lg:text-5xl mb-3">🟢</div>
+          <h3 class="font-semibold text-gray-800">Node.js</h3>
+        </div>
+        <div class="bg-white p-4 lg:p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow text-center">
+          <div class="text-4xl lg:text-5xl mb-3">📦</div>
+          <h3 class="font-semibold text-gray-800">Git</h3>
+        </div>
+        <div class="bg-white p-4 lg:p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow text-center">
+          <div class="text-4xl lg:text-5xl mb-3">🗄️</div>
+          <h3 class="font-semibold text-gray-800">Database</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="bg-white min-h-[500px] w-full flex flex-col justify-center items-center p-6 lg:p-12 text-gray-800">
+    <div class="w-full lg:w-[60%] mb-5">
+      <h2 class="section-title uppercase text-2xl lg:text-5xl text-center font-bold mb-6">Contact</h2>
+      <div class="section-content flex flex-col justify-center items-center pt-5 pb-5 text-center">
+        <span class="text-xl lg:text-2xl text-teal-500 mb-3 font-medium">I LOOK FORWARD TO WORKING WITH YOU</span>
+        <span class="text-gray-600">I'm so happy that my skills might bring values to you. Let's connect for work</span>
+      </div>
+    </div>
+    <a href="mailto:ngotanduc10112005@gmail.com?subject=Hi Đức, I want to connect with you!&body=Please describe your work or project requirements" class="section-content border-2 border-teal-400 px-6 lg:px-8 py-3 bg-teal-400 text-white hover:bg-white hover:text-teal-400 transition-colors cursor-pointer rounded-md">
+      <span class="text-lg lg:text-xl uppercase font-light focus:outline-none focus:ring focus:ring-teal-300">Send An Email Now</span>
+    </a>
+  </section>
+
+  <footer class="bg-neutral-900 min-h-[300px] pt-12 pb-12 flex flex-row justify-center items-center">
+    <div class="w-full lg:w-[60%] flex flex-col justify-center items-center px-4">
+      <ul class="flex flex-row">
+        <li class="pl-4 pr-4 cursor-pointer hover:-translate-y-2 transition-transform duration-300">
+          <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+            <img class="w-10 grayscale hover:grayscale-0 transition-all duration-300" src="/imgs/twitter.svg" alt="Twitter" />
+          </a>
+        </li>
+        <li class="pl-4 pr-4 cursor-pointer hover:-translate-y-2 transition-transform duration-300">
+          <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn">
+            <img class="w-10 grayscale hover:grayscale-0 transition-all duration-300" src="/imgs/linkedin.svg" alt="LinkedIn" />
+          </a>
+        </li>
+        <li class="pl-4 pr-4 cursor-pointer hover:-translate-y-2 transition-transform duration-300">
+          <a href="https://github.com/Duc1011" target="_blank" aria-label="GitHub">
+            <img class="w-10 grayscale hover:grayscale-0 transition-all duration-300" src="/imgs/github.svg" alt="GitHub" />
+          </a>
+        </li>
+      </ul>
+
+      <hr class="w-1/2 border-gray-500 mt-10"/>
+      <p class="text-lg text-gray-500 mt-5">©2025 - Ngô Tấn Đức</p>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/scripts/application.js"></script>
+</body>
+</html>
